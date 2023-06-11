@@ -78,66 +78,71 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://moein.xyz/}{\Large Moein Hosseini}} & Email : \href{mailto:abc@moein.xyz}{abc@moein.xyz}\\
-  \href{http://moein.xyz/}{http://moein.xyz} \\
+  \textbf{\href{http://moein.xyz/}{\Large Moein Hosseini}} & \href{mailto:abc@moein.xyz}{abc@moein.xyz}\\
+  London, UK & \href{https://linkedin.com/in/moeinxyz/}{linkedin.com/in/moeinxyz} \\
 \end{tabular*}
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
+%---- Quantcast ----      
     \resumeSubheading
     {Quantcast}{London, UK}
-    {Senior Software Engineer}{Jan 2020 - Present}{}
-%---- BisPhone ----    
+    {Senior Software Engineer}{Jan 2020 - Present}{ DSP specialised in AI-driven real-time advertising }
+    \resumeItemListStart
+      \resumeItemSimple{Leading a project to replace a legacy 12-year-old pixel stack, handling a substantial workload of hundreds of thousands QPS. Ensuring a smooth transition, minimal downtime and alignment between the two stacks.}
+      \resumeItemSimple{Devised and implemented an adaptive sampling system, resulting in a 80\% reduction in time-to-life for campaigns.}
+      \resumeItemSimple{Optimised the spend controller service, achieving a 200\% cost reduction while maintaining optimal performance.}
+      \resumeItemSimple{Successfully incorporated support for privacy compliance regulations, namely GDPR, CCPA, COPPA, and GPC.}
+      \resumeItemSimple{Actively participated in Inventory, Control, and Edge Service Teams, effectively collaborating across multiple areas of the business to address critical challenges and drive impactful solutions.}
+    \resumeItemListEnd
+%---- Tapsi ----    
     \resumeSubheading
-      {Tapsi}{Tehran, Iran}
-      {Senior Data Engineer}{Dec 2018 - Dec 2019}{ Fastest-growing and second carpool player in Iran (Uber of Iran)}
+      {Tapsi}{Tehran, Iran, Iran}
+      {Senior Data Engineer}{Dec 2018 - Dec 2019}{Iran's pioneering ride-sharing company and first startup to go public}
       \resumeItemListStart
-        \resumeItemSimple{Lead the team of 3 to build and maintain a  scalable and fault-tolerance data warehouse and computation stack.}
-		\resumeItemSimple{Working closely with BI and backend teams to make sure that the cluster meets business requirements.}
-		\resumeItemSimple{Built synchronization services to makes data warehouse synchronized with production databases using Spark.}
-		\resumeItemSimple{Setup and manage data pipelines and reporting system for ten of thousands of jobs per day using Airflow.}           
-		\resumeItemSimple{Built stream processing application responsible for schema inference, event persistence and automatically creating Hive tables using Spark and Kafka.}           		
+        \resumeItemSimple{Led a team of 3 engineers in creating a scalable and fault-tolerant data warehouse and computation stack, boosting efficiency and reducing query times by over 300\% for BI and customer support teams.} 
+        \resumeItemSimple{Created a synchronisation service for data warehouse consistency, ensuring accurate and up-to-date analytics.}
+        \resumeItemSimple{Built a stream processing application responsible for schema inference, persistence, and automatic creation of Hive tables for events submitted into Apache Kafka.}
+        \resumeItemSimple{Managed data pipeline and reporting systems setup and maintenance, handling tens of thousands of daily jobs.}
       \resumeItemListEnd
 %---- BisPhone ----    
     \resumeSubheading
       {BisPhone}{Tehran, Iran}
-      {Technical Product Manager (Alongside with Data Engineering role
-)}{Mar 2018 - Dec 2018}{Optimized messaging and calls application with almost 3 million users}
+      {Technical Product Manager (In addition to my Data Engineering role
+)}{Mar 2018 - Dec 2018}{Messaging application serving nearly 3 million users (prior to discontinuation).}
     \resumeItemListStart
-        \resumeItemSimple{Design RPC level APIs between microservices and exposed API to clients using SARF and Protobuf.}
-        \resumeItemSimple{Design the end-to-end encryption protocol based on Diffie-Hellman and AES algorithms.}        
-    	\resumeItemSimple{Working closely with C level people and all technical teams to define a technical road map of product, minimize technical debts during releases and divide features to deliverable tasks.}
+        \resumeItemSimple{Collaborated with team leads and reported directly to the CEO to define a comprehensive technical roadmap, aimed at minimising technical debts and breaking down features into actionable tasks.}
+        \resumeItemSimple{Designed an end-to-end encrypted chat feature, implementing robust security measures by utilising Diffie-Hellman and AES algorithms. Additionally, designed and implemented backend RPC endpoints.}
     \resumeItemListEnd	
 %---- BisPhone ----        
     \resumeSubheading
       {BisPhone}{Tehran, Iran}
       {Data Engineer / Big Data Developer}{Dec 2016 - Dec 2018}{}     
     \resumeItemListStart
-        \resumeItemSimple{Count unique users interactions to contents using approximately algorithms, Flink, Kafka and Cassandra.}
-    	\resumeItemSimple{ETL data to new version of application during big bang migration from SQL based DBs to Cassandra using Spark.}
-    	\resumeItemSimple{Contribution to p2p messaging, message broadcasting and file storage services using Scala and Akka.} 
-    	\resumeItemSimple{Built a batch service to calculate system stats from various sources and publish it on EK stack using Spark.}  	
+        \resumeItemSimple{Designed and Implemented a high-performance realtime unique count service to calculate user interaction with messages leveraging Apache Flink, Apache Kafka and Cassandra.}
+        \resumeItemSimple{Orchestrated seamless data migration from legacy MySQL to Cassandra, minimizing downtime through strategic planning, meticulous execution, and comprehensive testing. Ensured data integrity and uninterrupted service throughout the transition.}
+        \resumeItemSimple{Played an instrumental role in enhancing the core messaging, broadcasting, and file serving services by implementing new features using Akka and Scala.}
     \resumeItemListEnd	
 %---- Hunger Station ----    
     \resumeSubheading
-      {HungerStation}{Remote, Saudi Arabia}
-      {Software Developer}{Nov 2015 - Mar 2016}{The largest online food court in Saudi Arabia and Bahrain}    
+      {HungerStation}{Remote}
+      {Software Developer}{Nov 2015 - Mar 2016}{Online food ordering platform, acquired by FoodPanda}    
 %---- Persian Blog ----
     \resumeSubheading
       {PersianBlog}{Tehran, Iran}
-      {Software Developer}{May 2014 - Dec 2014}{The first blogging platform in Persian}
+      {Software Developer}{May 2014 - Dec 2014}{The first blogging platform in Farsi}
 %---- Shiveh Co ----      
     \resumeSubheading
       {ShivehCo}{Tehran, Iran}
-      {Junior Web Developer}{Jun 2013 - May 2014}{A pioneer company in the GIS and realtime tracking systems.}     
+      {Junior Web Developer}{Jun 2013 - May 2014}{Specialised in the GIS and realtime tracking systems.}     
   \resumeSubHeadingListEnd
 
-%--------PROGRAMMING SKILLS------------
-\section{Programming Skills}
+%-------- SKILLS------------
+\section{Skills}
   \resumeSubHeadingListStart
-    \resumeSubItem{Languages}{Scala, Java, Python, SQL}
-    \resumeSubItem{Technologies}{Spark, Kafka, Hadoop, Flink, Ambari, Airflow, Zookeeper, Cassandra, Postgres}
+    \resumeSubItem{Languages}{Golang, Scala, Java, Python, SQL}
+    \resumeSubItem{Technologies}{AWS, Spark, Kafka, Cassandra, Flink, Postgres}
   \resumeSubHeadingListEnd
   
 %-----------EDUCATION-----------------
@@ -150,25 +155,5 @@
       {K. N. Toosi University of Technology}{Tehran, Iran}
       {Bachelor of Science, Computer Engineering}{2010 -- 2015}{}
   \resumeSubHeadingListEnd
-  
-%-----------PROJECTS-----------------
-\section{Notable Open Source Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{Airflow On Ambari}{Mpack package to setup and monitor Celery based Airflow or Ambari (Ambari extension)}
-    \resumeSubItem{RabbitMQ On Ambari}
-      {Setup, configure and monitor single node RabbitMQ server on Ambari (Ambari extension)}
-  \resumeSubHeadingListEnd
-
-%-----------PROJECTS-----------------
-\section{Volunteer Experience}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {AISEC}{Guangzho, China}
-      {Volunteer University Exchange Student}{Jul 2016 - Aug 2016}{}
-    \resumeItemListStart
-    	\resumeItemSimple{Working as a volunteer in Guangzhou to improve general knowledge of Chinese migrant workers in the international team. This project helped me to develop my leadership and communication skills in the multi-culture environment.}
-    \resumeItemListEnd	 		
-  \resumeSubHeadingListEnd
-
 %-------------------------------------------
 \end{document}
